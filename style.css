@@ -19,7 +19,7 @@ overflow-x: auto;
     display: flex;
     flex-flow:  row nowrap;
     gap: 15px;
-    
+    background-color: black;
 }
 
 .arrow-left,

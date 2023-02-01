@@ -8,23 +8,27 @@
     <title>Home</title>
 </head>
 <body>
-    <header>
-<div class="menu">
-    <div class="logo">
+<!--menu da home-->
+<header>
+    <div class="menu">
+    
+        <div class="logo">
 <img src="../image/ab6761610000e5eb50defaf9fc059a1efc541f4c-cutout.png" alt="logo" id="logo">
     </div>
+    <!--links dos htmls-->
     <nav>
         <div class="navegacao">
-            <ul>
-                <li><a href="">Sobre Nós</a></li>
-                <li><a href="../html/MUSICAS.html">Músicas</a></li>
-                <li><a href="">Agenda</a></li>
-                
-               
-            </ul>
+            
+               <a href="">Sobre Nós</a></li>
+                <a href="../html/MUSICAS.html">Músicas</a>
+                <a href="">Agenda</a></li>
+            
         </div>
     </nav>
-<nav>
+<!--Fim dos links dos htmls-->
+
+<!--Links das redes sociais-->
+    <nav>
 <div class="rede-social">
     <a href="https://www.facebook.com/gunsnroses/?locale=pt_BR"><img src="../image/png-transparent-facebook-fb-logo-social-social-media-social-media-logos-icon-cutout.png" alt="facebook"></a>
     <a href="https://www.instagram.com/gunsnroses/"><img src="../image/Logo-Instagram-Png-cutout.png" alt="instagram"></a>
@@ -32,10 +36,55 @@
 
 </div>
 </nav>
-
+<!--fim dos links das redes sociais-->
 </div>
-
 </header>
+<!--Fim do menu da home-->
+<br>
+<!-- main -->
+<main>
+<!-- slide de fotos(carrosel) -->
+<div class="slider">
+    <div class="slides">
+        <!-- radio buttons -->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <!-- fim radio buttons -->
+
+        <!-- imagens do slide -->
+        <div class="-img-slide first">
+            <img src="../image/imagem-carrosel1.jpg" alt="imagem da banda">
+        </div>
+        <div class="-img-slide ">
+            <img src="../image/imagem-carrosel2.jpg" alt="imagem da banda">
+        </div>
+        <div class="-img-slide ">
+            <img src="../image/imagem-carrosel3.jpg" alt="imagem da banda">
+        </div>
+        <div class="-img-slide ">
+            <img src="../image/imagem-carrosel4.jpg" alt="imagem da banda">
+        </div>
+        <!-- fim das imagens -->
+
+        <!-- auto-nav -->
+        <div class="auto-nav">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+        </div>
+    </div>
+<div class="manual-nav">
+    <label for="radio1" class="manual-btn"></label>
+    <label for="radio2" class="manual-btn"></label>
+    <label for="radio3" class="manual-btn"></label>
+    <label for="radio4" class="manual-btn"></label>
+</div>
+</div>
+<hr>
+</main>
 
 
 
@@ -45,5 +94,8 @@
 
 
 
+
+
+<script src="../javascript/script.js"></script>
 </body>
 </html>

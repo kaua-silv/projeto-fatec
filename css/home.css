@@ -4,64 +4,177 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
+  
 }
-
 html{
     height: 100%;
+    width: 100%;
+   
+    
+    
+ 
+}
+body{
+background-image: linear-gradient(gray,black 65%);
 }
 
-
-body {
-   background-image: linear-gradient( grey  ,black 65%);
-    height: 100% ;
-    background-repeat: no-repeat;
-}
+/* css do menu */
 
 .menu{
-    background-color:black;
-    height: 80px ;;
+    background-color: black;
+    width: 100%;
+    height: 90px;
     display: flex;
-    
-
+    position: fixed;
+    position: absolute;
+  
 }
 
-#logo{
-padding: 15px;
+.logo{
+    padding: 10px;
+    position:absolute;
+    margin-left: 10px;
 }
 
 .navegacao{
-   margin-left: 200px;
-   
+   padding: 40px;
+   position:absolute ;
+   margin-left: 390px ;
 }
 
-.navegacao ul li {
-   display: inline-flex;
-   padding: 20px;
-    
-}
-
-.navegacao ul li a {
+.navegacao a{
+    padding: 30px;
     color: white;
     text-decoration: none;
-  padding: 20px;
-    transition: all 600ms ease-in-out;
+    transition: 600ms ease-in-out;
 }
 
-.navegacao ul li a:hover{
+.navegacao a:hover{
     color: yellow;
     text-decoration: underline;
+    transition: 600ms ease-in-out;
 }
-
 
 .rede-social{
-    margin-top: 20px;
-    margin-left:990px;
-    margin-right: auto;
-    display: inline-flex;
+    margin-left:1700px  ;
+    margin-top: 40px;
+    position:absolute ;
 
-   
 }
 
-.rede-social a {
+.rede-social a{
     padding: 10px;
+}
+/* fim css do menu */
+
+/* css carrosel */
+
+
+.slider{
+   display: flex;
+   width: 800px;
+   height: 500px;
+   overflow: hidden;
+   margin: 200px auto;
+   }
+
+   .slides{
+    display: flex;
+    width: 400%;
+    height: 400px;
+   }
+
+   .slides input{
+    display: none;
+   }
+
+   .-img-slide {
+    width: 25%;
+    position: relative;
+   }
+
+   .-img-slide img{
+    width: 800px;
+    height: 500px;
+   }
+
+   .manual-nav{
+    position: absolute;
+    width: 800px;
+    margin-top: 450px;
+    display: flex;
+    justify-content: center;
+   }
+
+   .manual-btn{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+   cursor: pointer;
+   transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 60px;
+}
+
+.manual-btn:hover{
+    background-color: yellow;
+    transition: 1s;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+    transition: 2s;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+    transition: 2s;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+    transition: 2s;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+    transition: 2s;
+}
+
+.auto-nav div{
+    border: 2px solid yellow;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.auto-nav{
+    position: absolute;
+    width: 800px;
+    margin-top: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.auto-nav div:not(:last-child){
+    margin-right: 60px;
+}
+
+#radio1:checked ~ .auto-nav .auto-btn1{
+    background-color: yellow;
+}
+
+#radio2:checked ~ .auto-nav .auto-btn2{
+    background-color: yellow;
+}
+
+#radio3:checked ~ .auto-nav .auto-btn3{
+    background-color: yellow;
+}
+
+#radio4:checked ~ .auto-nav .auto-btn4{
+    background-color: yellow;
 }

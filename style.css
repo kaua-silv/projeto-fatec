@@ -13,10 +13,10 @@
 
 .gallery-wrapper{
 overflow-x: auto;
-overflow: hidden;
+
 }
 
-.gallery-wrapper-webkit-scrollbar{
+.gallery-wrapper::-webkit-scrollbar{
     display: none;
 }
 

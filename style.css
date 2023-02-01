@@ -13,7 +13,22 @@
 
 .gallery-wrapper{
 overflow-x: auto;
+overflow: hidden;
 }
+
+.gallery-wrapper-webkit-scrollbar{
+    display: none;
+}
+
+.gallery-wrapper{
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+
+
+
 
 .gallery{
     display: flex;
@@ -46,10 +61,6 @@ opacity: 1;
 
 }
 
-
-
-
-
 .arrow-right {
     
     
@@ -59,3 +70,14 @@ opacity: 1;
     
     }
     
+.item{
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+    opacity: 0.6;
+    transition: all 600ms ease-in-out;
+}
+
+.current-item{
+    opacity: 1;
+}

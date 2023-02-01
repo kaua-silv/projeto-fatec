@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+html{
+    height: 100%;
+}
+
+
+body {
+   background-image: linear-gradient( grey  ,black 65%);
+    height: 100% ;
+    background-repeat: no-repeat;
+}
+
+.menu{
+    background-color:black;
+    height: 80px ;;
+    display: flex;
+    
+
+}
+
+#logo{
+padding: 15px;
+}
+
+.navegacao{
+   margin-left: 200px;
+   
+}
+
+.navegacao ul li {
+   display: inline-flex;
+   padding: 20px;
+    
+}
+
+.navegacao ul li a {
+    color: white;
+    text-decoration: none;
+  padding: 20px;
+    transition: all 600ms ease-in-out;
+}
+
+.navegacao ul li a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+.rede-social{
+    margin-top: 20px;
+    margin-left:990px;
+    margin-right: auto;
+    display: inline-flex;
+
+   
+}
+
+.rede-social a {
+    padding: 10px;
+}

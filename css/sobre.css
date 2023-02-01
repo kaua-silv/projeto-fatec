@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(#070606, #5a4d4d) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;  
+    color: white;
+}
+
+.principal {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    border-style: solid;
+    padding: 50px;
+}
+
+img {
+    height: 194px;
+    padding:  10px;
+}
+.container {
+    display: flex;
+    text-align: justify;
+    background-color: black;
+    
+}

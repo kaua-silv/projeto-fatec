@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(#070606, #5a4d4d) no-repeat;
+    background-image: linear-gradient(gray,black 65%);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -19,10 +19,13 @@ body {
 img {
     height: 194px;
     padding:  10px;
+    float: left;
 }
 .container {
-    display: flex;
-    text-align: justify;
     background-color: black;
-    
 }
+
+.text {
+    text-align: justify;
+}
+

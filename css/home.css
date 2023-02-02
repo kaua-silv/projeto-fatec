@@ -191,8 +191,8 @@ background-size: cover;
 /* cs area do contrato*/
 
 .contrato {
-   background: linear-gradient(black 25%,yellow ); 
-    border: 2px solid white;
+   background: linear-gradient(black 25%,white); 
+border: 2px solid white;
     height: 500px;
     width: 800px;
     display: table;
@@ -275,3 +275,79 @@ color: yellow;
 .imagem1, .imagem2 , .imagem3 , .imagem4 {
     border: 1px solid white;
 }
+
+/* texto sobre a banda */
+
+
+.primeira {
+    height: 400px;
+    width: 1000px;
+    padding:  10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#regua{
+    height: 500px;
+    width: 1000px;
+}
+
+
+
+
+
+#cd1 {
+    border-style: solid black;
+    background-color: black;
+    padding: 10px;
+    margin-top: 200px;
+    color: white;
+}
+
+
+#cd2 {
+    border-style: solid black;
+    background-color: black;
+    padding: 10px;
+    margin-top: 5px;
+    color:white
+}
+
+#cd3 {
+    border-style: solid black;
+    background-color: black;
+    padding: 10px;
+    margin-top: 50px;
+    color: white;
+    
+}
+
+#cd4 {
+    border-style: solid black;
+    background-color: black;
+    padding: 10px;
+    margin-top: 120px;
+    color:white;
+   
+height: 230px;
+
+}
+
+
+    #imagemTexto {
+        height: 194px;
+        padding:  10px;
+        float: left;
+    }
+    
+    .selos{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .selos div:not(:last-child){
+        margin-right: 20px;
+    }
+    

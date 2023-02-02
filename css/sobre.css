@@ -1,0 +1,31 @@
+body {
+    background-image: linear-gradient(gray,black 65%);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;  
+    color: white;
+}
+
+.principal {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    border-style: solid;
+    padding: 50px;
+}
+
+img {
+    height: 194px;
+    padding:  10px;
+    float: left;
+}
+.container {
+    background-color: black;
+}
+
+.text {
+    text-align: justify;
+}
+

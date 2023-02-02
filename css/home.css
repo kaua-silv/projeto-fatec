@@ -253,3 +253,25 @@ color: white;
 color: yellow;
 }
 
+/* css area das fotos dos cds*/
+
+.titulo-cds {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.fotosCds {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.fotosCds div:not(:last-child){
+    margin-right: 50px;
+}
+
+.imagem1, .imagem2 , .imagem3 , .imagem4 {
+    border: 1px solid white;
+}

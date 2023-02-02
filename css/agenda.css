@@ -1,5 +1,7 @@
 html{
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 body {
@@ -38,10 +40,11 @@ text-align: center;
 s {
     color: yellow;
 }
-#div-mae {
-text-align: center;
+.mae {
+    display: flex;
+    justify-content: center;
 }
-#div-primeira-linha 
-#div-segunda-linha 
-#div-terceira-linha 
-#div-quarta-linha 
+
+.primeira ul {
+    color: white;
+}

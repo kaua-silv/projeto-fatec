@@ -191,7 +191,7 @@ background-size: cover;
 /* cs area do contrato*/
 
 .contrato {
-    background: linear-gradient(black 15%, yellow );
+   background: linear-gradient(black 25%,yellow ); 
     border: 2px solid white;
     height: 500px;
     width: 800px;
@@ -252,3 +252,4 @@ color: white;
 #enviar:hover, #cancelar:hover {
 color: yellow;
 }
+

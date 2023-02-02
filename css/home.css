@@ -9,12 +9,14 @@
   
 }
 html{
-    height: 100%;
+    
     width: 100%;
    
 }
 body{
-background-image: linear-gradient(gray,black 65%);
+background: linear-gradient(gray,black 35%);
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 /* css do menu */
@@ -189,6 +191,64 @@ background-image: linear-gradient(gray,black 65%);
 /* cs area do contrato*/
 
 .contrato {
-    background-color: yellow;
+    background: linear-gradient(black 15%, yellow );
+    border: 2px solid white;
+    height: 500px;
+    width: 800px;
+    display: table;
+  margin: 40px auto;
+  padding: 10px;
+  color: white;
+}
+
+#titulo {
+    
+    height: 50px;
+    width: 500px;
+    display: flex;
+    margin-left: 190px;
+    
+}
+
+
+
+.caixa-de-entrada {
+  
+   margin-left: 30px;
+   margin-top: 50px;
+   height: 300px;
+   width: 600px;
+   padding: 10px;
+
 }
     
+.Mensagem {
+    margin-top: 40px;
+}
+
+#Mensagem-caixa {
+    width: 300px;
+    height: 25px;
+}
+
+.enviar-cancelar {
+
+    display: flex;
+    padding: 10px;
+    margin-left: 30px ;
+}
+
+#enviar{
+    margin-right: 10px;
+    width: 50px;
+    background-color: black;
+    color: white;
+}
+
+#cancelar {
+background-color: black;
+color: white;
+}
+#enviar:hover, #cancelar:hover {
+color: yellow;
+}

@@ -14,3 +14,11 @@ function nextImage(){
 
     document.getElementById("radio"+count).checked = true;
 }
+
+
+function alertSubmit(){
+
+    var emaildigitado=document.getElementById("email").value;
+    
+    alert("Sua mensagem foi enviado com sucesso! Logo entraremos em contato com: " + emaildigitado) ;
+  }

@@ -37,16 +37,20 @@ background-image: linear-gradient(gray,black 65%);
 }
 
 .navegacao{
-   padding: 40px;
+   padding: 0px;
    position:absolute ;
    margin-left: 390px ;
+   display: flex;
+   justify-content: center;
+
 }
 
 .navegacao a{
-    padding: 30px;
+    padding: 40px;
     color: white;
     text-decoration: none;
     transition: 600ms ease-in-out;
+    
 }
 
 .navegacao a:hover{
@@ -55,10 +59,12 @@ background-image: linear-gradient(gray,black 65%);
     transition: 600ms ease-in-out;
 }
 
+
 .rede-social{
     margin-left:1700px  ;
     margin-top: 40px;
     position:absolute ;
+
 
 }
 

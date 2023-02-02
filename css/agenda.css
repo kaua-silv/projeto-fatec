@@ -1,0 +1,47 @@
+html{
+    width: 100%;
+}
+
+body {
+    background-size: cover;
+    background-image: linear-gradient(gray,black 65%);
+    background-repeat: no-repeat;
+}
+table, th, td {
+    border: 1px solid yellow;
+    border-collapse: collapse
+}
+
+h1, h2 {color: yellow;}
+
+th {
+    color: yellow;
+background-color:dimgrey ;
+}
+td {
+    color: white;
+    background-color: black;
+}
+
+th,td {
+    padding: 5px 10px;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+text-align: center;
+}
+
+s {
+    color: yellow;
+}
+#div-mae {
+text-align: center;
+}
+#div-primeira-linha 
+#div-segunda-linha 
+#div-terceira-linha 
+#div-quarta-linha 

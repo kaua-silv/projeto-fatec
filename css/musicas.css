@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: aqua;
+}
+
+.musica1{
+    margin-top: 100px;
+}
+
+#label1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#audio1{
+    display: flex;
+    justify-content: center;
+}
+.musica2{
+    margin-top: 10px;
+}
+
+#label2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#audio2{
+    display: flex;
+    justify-content: center;
+}
+.musica3{
+    margin-top: 10px;
+}
+
+#label3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#audio3{
+    display: flex;
+    justify-content: center;
+}
+.musica4{
+    margin-top: 10px;
+}
+
+#label4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#audio4{
+    display: flex;
+    justify-content: center;
+}
+
+.musica5{
+    margin-top: 10px;
+}
+
+#label5{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#audio5{
+    display: flex;
+    justify-content: center;
+}
+
+
+.musica6{
+    margin-top: 10px;
+}
+
+#label6{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#audio6{
+    display: flex;
+    justify-content: center;
+}
+
+.musica7{
+    margin-top: 10px;
+}
+
+#label7{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#audio7{
+    display: flex;
+    justify-content: center;
+}
+
+
+.musica8{
+    margin-top: 10px;
+}
+
+#label8{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#audio8{
+    display: flex;
+    justify-content: center;
+}
+
+.musica9{
+    margin-top: 10px;
+}
+
+#label9{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#audio9{
+    display: flex;
+    justify-content: center;
+}
